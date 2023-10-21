@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+.FirstViwe {
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg)
+}
+
+.potepan-logo {
+  width: 180px;
+  height: auto;
+  margin: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ContentRight {
+  display: flex;
+  justify-content :space-between;
+}
+
+.ContentRight > div {
+  font-size:12px;
+  padding: 0 20px;
+  margin: auto;
+  text-align: center;
+  font-family: "游ゴシック";
+  color: black;
+}
+
+.contact-button {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f79214;
+  height: 40px;
+  width: 140px;
+  border-radius: 20px
+}
+
+.contact-button:hover {
+  background-color: #FFAA41;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.main-container{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main-text {
+  text-align: center;
+  width: fit-content;
+}
+
+.merit-image {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact-main-button {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Yugothic";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  background-color: #f79214;
+  width: 480px;
+  border-radius: 30px;
+  height: 60px;
+}
+
+.comment {
+  color: #a2a2a4;
+  font-size: 12px;
+  font-weight: 200;
+  font-family: "Yugothic";
+}
+
+.potepan_video {
+  width: 500px;
+}
+
+.about_potepan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  
+}
+
+.What_potepan-title {
+  display:flex;
+  flex-direction: column;
+}
+
+ul {
+  padding: 0 20px;
+  list-style: none;
+  text-align: left;
+  height: auto;
+}
+
+a  {
+  text-decoration : none;
+  color:black;
+}
