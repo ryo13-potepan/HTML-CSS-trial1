@@ -1,0 +1,213 @@
+body {
+  margin: 0px;
+  font-size: 14px;
+  position: relative;
+}
+
+.Header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.HeaderLogoImage {
+  height: 20px;
+  width: auto;
+  margin-top: 10px
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 36px;
+}
+
+.HeaderNav {
+  display: flex;
+  justify-content:center
+
+}
+
+.HeaderNavList {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width:fit-content;
+  margin:0;
+}
+
+.HeaderNavListItem {
+  margin-right: 43px;
+  line-height: 15px;
+}
+
+.HeaderNavListItem:last-of-type {
+  margin-right: 0;
+}
+
+.HeaderNavListItem-link >span {
+  display: block;
+  text-align: center;
+  color: #393939;
+}
+
+.HeaderNavListItem-link > span:first-child {
+  font-size: 14px;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
+  font-weight: 700;
+}
+
+.HeaderNavListItem-link > span:last-child {
+  font-size: 10px;
+}
+
+.HeaderNavListItem-Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f79214;
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
+  transition: all 0.2s;
+}
+.HeaderNavListItem-Button:hover {
+  background-color: #fbaa47;
+}
+
+
+.FirstView {
+  padding-top: 70px;
+  padding-bottom: 17px;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg)
+}
+
+.FirstView_container {
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 50px;
+}
+
+.FirstViewContent {
+  width: fit-content;
+  margin-bottom: 70px;
+}
+
+.FirstViewContent_title {
+  text-align: center;
+  font-size: 37px;
+  font-family: "Lato",sans-serif;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 54px;
+}
+
+.FirstViewContent_images {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.FirstViewContent_images > img {
+  margin-right: 8px;
+}
+
+.FirstViewContent_images img:nth-last-of-type(2) {
+  height: 200px;
+}
+
+.FirstViewContent_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f79214;
+  border-radius: 30px;
+  height: 64px;
+  width: 498px;
+  color: white;
+  font-size: 16px;
+  font-weight: 5500;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.2s;
+}
+
+.FirstViewContent_button:hover {
+  background-color: #fbaa47;
+}
+
+.FirstViewCaption {
+  color: #b6b6b7;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
+}
+
+.About {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 45px 0;
+  background-color: #f79214;
+}
+
+.AboutVideo {
+  width: 520px;
+  height: fit-content;
+  margin-right: 34px;;
+}
+
+.About_title {
+  width: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.About_title h2 {
+  font-size: 35px;
+  font-weight: 550;
+  margin: 15px 0 8px 0;
+  letter-spacing: .1em;
+  line-height: 54px;
+}
+
+.About_title h2 span {
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+
+.About_title p {
+  font-size: 16px;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
+  margin: 0 0 30px 0;
+  width: 480px;
+  font-weight: 300;
+}
+
+.About_reskilling-logo img{
+  width: 160px;
+}
+
+ul {
+  list-style: none;
+}
+
+a  {
+  text-decoration : none;
+  color:black;
+}
