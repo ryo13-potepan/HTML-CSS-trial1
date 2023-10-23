@@ -49,7 +49,7 @@ body {
 .HeaderNavListItem-link >span {
   display: block;
   text-align: center;
-  color: #393939;
+  color: #333333;
 }
 
 .HeaderNavListItem-link > span:first-child {
@@ -69,12 +69,12 @@ body {
   background-color: #f79214;
   border-radius: 20px;
   height: 40px;
-  width: 150px;
   color: white;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
   transition: all 0.2s;
+  padding: 0 20px
 }
 .HeaderNavListItem-Button:hover {
   background-color: #fbaa47;
@@ -155,15 +155,25 @@ body {
   font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
 }
 
+.AboutWrapper {
+  padding: 44px 0;
+  background-color: #f79214;
+}
+
 .About {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 45px 0;
-  background-color: #f79214;
+  padding: 0 50px
+  
+}
+
+@media screen and (max-width: 1080px) {
+  .About {display: block;}
 }
 
 .AboutVideo {
+  width: auto;
   width: 520px;
   height: fit-content;
   margin-right: 34px;;
