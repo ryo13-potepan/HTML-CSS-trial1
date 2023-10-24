@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>サイト模写</title>
     <link rel="stylesheet" href="trial1.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
   <body>
@@ -13,7 +14,13 @@
           <img class="HeaderLogoImage" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/header-logo.png.webp" alt="ポテパンキャンプロゴ">
         </a>
         <nav class="HeaderNav">
-          <ul class="HeaderNavList">
+          <button class="HeaderNav-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          
+          <ul class="HeaderNavList" id="NavList-menu">
             <li class="HeaderNavListItem">
               <a class="HeaderNavListItem-link" href="https://camp.potepan.com/content">
                 <span>CONTENT</span>
@@ -51,6 +58,9 @@
         </nav>
       </div>
     </header>
+
+    
+
     <main>
       <section class="FirstView">
         <img class="FirstView_main-image--sp" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp" alt="プログラミングスクールでWebエンジニア輩出No.1">

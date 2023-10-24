@@ -14,11 +14,19 @@ body {
 @media screen and (max-width:1080px){
   .Header {  
     padding-top: 20px;
-    padding-bottom: 20px; 
-    position:fixed;
+    padding-bottom: 20px;
     z-index: 10;
   }
 }
+
+@media screen and (max-width:767px){
+  .Header {  
+    padding-top: 17px;
+    padding-bottom: 20px;
+    z-index: 10;
+  }
+}
+
 .HeaderLogoImage {
   height: 20px;
   width: auto;
@@ -28,8 +36,15 @@ body {
 @media screen and (max-width:1080px){
   .HeaderLogoImage {
     height: 20px;
-    width: auto;
+    width: 0 auto;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:767px){
+  .HeaderLogoImage {
+    height: 16px;
+    width: 0 auto;
   }
 }
 
@@ -37,6 +52,12 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 36px;
+}
+
+@media screen and (max-width:767px) {
+.HeaderContainer {
+    margin-left: 21px;
+  } 
 }
 
 .HeaderNav {
@@ -51,6 +72,12 @@ body {
   justify-content: space-between;
   width:fit-content;
   margin:0;
+}
+
+@media screen and (max-width: 1080px) {
+  .HeaderNavList {
+    display: none;
+  }
 }
 
 .HeaderNavListItem {
@@ -94,6 +121,48 @@ body {
 }
 .HeaderNavListItem-Button:hover {
   background-color: #fbaa47;
+}
+
+.HeaderNav-burger {
+  display: none;
+  align-items: center;
+  position: fixed;
+}
+
+@media screen and (max-width:1080px) {
+  .HeaderNav-burger {
+    display: grid;
+    width:40px;
+    height: 31px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .HeaderNav-burger {
+    display: grid;
+    width:40px;
+    height: 31px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+}
+
+.HeaderNav-burger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #333333;
 }
 
 @media screen and (max-width:1080px) {
